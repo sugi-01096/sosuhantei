@@ -4,4 +4,5 @@ import pandas as pd
 from datetime import datetime
 import pytz
 import urllib.parse
-st.title('ダメージ計算')
+st.title('素数判定')
+st.markdown("自然数を入力してください")
