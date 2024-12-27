@@ -15,7 +15,7 @@ num = 3  # 次にチェックする数字
 while num <= n:
     sosuhantei = 1  # 素数かどうかのフラグ
     i = 0  # 素数リストのインデックス
-    while i<j and prime[i] * prime[i] <= num and prime[i] != 0:  # 素数リスト内の数で割り切れるか判定
+    while i<j and prime[i] * prime[i] <= num and prime[i] != 0 and sosuhantei==1:  # 素数リスト内の数で割り切れるか判定
         counter += 1  # 割り算回数をカウント
         if num % prime[i] == 0:
             sosuhantei = 0  # 割り切れれば素数ではない
