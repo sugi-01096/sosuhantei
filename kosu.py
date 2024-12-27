@@ -19,7 +19,6 @@ while num <= n:
         counter += 1  # 割り算回数をカウント
         if num % prime[i] == 0:
             sosuhantei = 0  # 割り切れれば素数ではない
-            break
         i += 1  # 次の素数をチェック
     if sosuhantei == 1:
         prime[j] = num  # 素数ならリストに追加
