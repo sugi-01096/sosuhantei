@@ -6,7 +6,7 @@ import pytz
 import urllib.parse
 st.title('素数判定')
 st.markdown("自然数を入力してください")
-n= st.nunber_input("自然数", value=0, step=1)
+n = st.number_input("自然数", value=2, step=1, min_value=1)
 sosuhantei=1
 i=2
 num=n
