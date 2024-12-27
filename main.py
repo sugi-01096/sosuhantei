@@ -4,4 +4,4 @@ import pandas as pd
 from datetime import datetime
 import pytz
 import urllib.parse
-st.print ("hello world")
+st.title('ダメージ計算')
