@@ -22,6 +22,6 @@ while i < num:  # i が num 未満の間繰り返す
 if num < 2:
     st.write(f"{num} は素数ではありません")
 elif sosuhantei == 1:
-    st.write(f"{num} は素数です")
+    st.write(n+"は素数です")
 else:
     st.write(f"{num} は素数ではありません")
