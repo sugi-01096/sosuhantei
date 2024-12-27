@@ -23,7 +23,7 @@ while num <= n:
     if sosuhantei == 1:
         prime[j] = num  # 素数ならリストに追加
         j += 1  # インデックスを進める
-    num += 1  # 次の数に進む
+    num += 2 # 次の数に進む
 
 # 結果表示
 st.write(f"1から{n}までの素数:")
