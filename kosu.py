@@ -22,7 +22,7 @@ while num<=n:
 st.write("１から"+n+"までの素数")
 i=0
 while prime[i]!=0:
-    st.write prime[i]
+    st.write (prime[i])
     i=i+1
 st.write("割り算を行った回数："+counter)
     
